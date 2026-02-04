@@ -2,6 +2,9 @@
 
 This project analyzes customer churn behavior for a telecom company to identify the key factors driving customer attrition and provide actionable business insights to improve retention.
 
+**End-to-End Workflow**
+Raw telecom dataset → SQL cleaning & aggregation → Data modeling in Power BI → Dashboard → Business insights → Retention recommendations
+
 **Objective**
 To analyze customer data and determine:
 - why customers are leaving
@@ -19,13 +22,12 @@ Features include: contract type, tenure, monthly charges, payment method, intern
 
 **Key Business Insights**
 - Overall churn rate is 26.6%, indicating a major retention issue.
-- Month-to-month contracts show highest churn (42%)
+- Month-to-month contracts account for 42% churn rate, making them the highest-risk segment.
   Long-term contracts significantly improve retention.
 - Customers with low tenure (18 months avg) are more likely to churn
   Early lifecycle engagement is critical.
-- High monthly charge customers churn 2× more
-  Pricing strategy needs evaluation.
-
+- Customers in high-charge bracket show 2x higher churn probability, indicating price sensitivity.
+  
 **Business Recommendations**
 - Encourage long-term contracts through discounts
 - Improve onboarding for new customers
