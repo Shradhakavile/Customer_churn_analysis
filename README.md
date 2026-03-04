@@ -66,17 +66,18 @@ The analysis was structured in the following stages:
 - Segmentation using GROUP BY and conditional logic
 
 ## Key Business Insights
-- Month-to-month contract customers exhibit the highest churn rate compared to annual contracts.
-- Customers with tenure less than 6 months show significantly higher churn probability.
-- A substantial portion of monthly recurring revenue is lost due to churned customers.
-- High-risk customers (short tenure + month-to-month contract) contribute disproportionately to total churn.
-- Long-tenure customers demonstrate strong retention stability and higher lifetime value.
+- The dataset contains 7,032 total customers with an overall churn rate of 26.58%.
+- Month-to-month contract customers exhibit the highest churn rate at 42.71%, compared to 11.28% (one-year) and 2.85% (two-year contracts).
+- The company loses ₹139,130.85 in monthly recurring revenue due to churn.
+- High-risk customers (month-to-month contract with tenure ≤ 6 months) contribute ₹78,954.40 in revenue, representing a significant portion of churn exposure.
+- Long-term contract customers demonstrate strong retention stability and significantly lower churn probability.
 
 ## Revenue Impact Analysis
-- Calculated total monthly revenue loss from churned customers.
-- Estimated customer lifetime value (CLV) to measure long-term revenue impact.
-- Identified revenue concentration across contract types using window functions.
-- Quantified financial risk associated with high-churn segments.
+- Total Customers: 7,032
+- Overall Churn Rate: 26.58%
+- Monthly Revenue Loss from Churn: ₹139,130.85
+- High-Risk Segment Revenue Exposure: ₹78,954.40
+- Remaining Customer Revenue: ₹376,706.60
 
 ## Strategic Recommendations
 1. Offer discounted 6-month contract upgrades for month-to-month customers.
