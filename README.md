@@ -9,8 +9,6 @@ and provide data-driven retention strategies to improve profitability.
 The analysis includes KPI measurement, churn segmentation, revenue impact estimation, 
 and strategic business recommendations.
 
-This project analyzes customer churn behavior for a telecom company to identify the key factors driving customer attrition and provide actionable business insights to improve retention.
-
 ## Business Problem
 A telecom company risks losing ₹135K in monthly revenue to churn. 
 This project identifies at-risk customers and prioritizes retention action. 
@@ -32,6 +30,7 @@ SQL → Python (Random Forest, CLV scoring, risk segmentation) → Power BI
 
 ## Results
 | Metric | Value |
+| --- | --- |
 | Revenue at Risk | ₹135K/month |
 | Revenue Saveable | ₹40.64K |
 | Model Accuracy | ~80% |
