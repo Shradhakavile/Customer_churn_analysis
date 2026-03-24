@@ -36,3 +36,6 @@ SQL → Python (Random Forest, CLV scoring, risk segmentation) → Power BI
 | Revenue Saveable | ₹40.64K |
 | Model Accuracy | ~80% |
 | Customers Analysed | 7,032 |
+
+## Dashboard Preview
+![Dashboard](dashboard.png)
